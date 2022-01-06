@@ -1,0 +1,37 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+/* RESET GERAL DOS LINKS */
+a{
+    text-decoration: none;
+}
+/* CABEÇALHO */
+.cabecalho{
+    border-bottom: 1px solid rgba(117, 116, 116, 0.3);
+}
+#siteTitle{
+    font-size: 4em;
+    font-family: "Oswald";
+}
+/* CONTEUDO DESTACADO */
+#destacado div div h1{
+    font-size: 4em;
+}
+#destacado div div p{
+    font-size: 1.2em;
+}
+#destacado div div a{
+    font-size: 1.6em;
+}
+#noticiaDestacada{
+    margin-top: 15%;
+    border-radius: 50px;
+}
+/* CARDS */
+.card{
+    max-width: 540px;
+    border-radius: 10px;
+}
+/* BARRA LATERAL */
+#arquivos li, #midiasSociais li{
+    list-style: none;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Durante 11 anos sendo o maior portal de noticias brasileiro.">
+    <link rel="icon" type="image/png" href="./IMG/download.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/noticias.css">
+    <title>É Notícia | O maior portal de noticias do Brasil</title>
+</head>
+<body>
+    
+    <!-- CABEÇALHO -->
+    <div class="container">
+        <header class="cabecalho">
+            <div class="row flex-nowrap justify-content-between align-items-center p-3" id="header">
+                <div class="col-4">
+                    <button type="button" class="btn btn-secondary" id="assine">
+                        Assine Já
+                    </button>
+                </div>
+                <div class="col-4">
+                    <h1 class="text-uppercase" id="siteTitle">É Notícia</h1>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <button type="submit" class="input-group-text" id="buscar">
+                        <i class="bi bi-search"></i>
+                    </button>
+                    <input type="text" class="form-control" placeholder="Pesquisar">
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- BARRA DE NAVEGAÇÃO -->
+    <div class="container">
+        <nav class="d-flex justify-content-between" id="categorias">
+            <a class="ms-2 text-muted" href="#">Mundo</a>
+            <a class="ms-2 text-muted" href="#">Nacional</a>
+            <a class="ms-2 text-muted" href="#">Tecnologia</a>
+            <a class="ms-2 text-muted" href="#">Design</a>
+            <a class="ms-2 text-muted" href="#">Cultura</a>
+            <a class="ms-2 text-muted" href="#">Negócios</a>
+            <a class="ms-2 text-muted" href="#">Política</a>
+            <a class="ms-2 text-muted" href="#">Opiniões</a>
+            <a class="ms-2 text-muted" href="#">Ciência</a>
+            <a class="ms-2 text-muted" href="#">Saúde</a>
+            <a class="ms-2 text-muted" href="#">Estilo</a>
+            <a class="ms-2 text-muted" href="#">Viagem</a> 
+        </nav>
+    </div>
+
+    <!-- CONTEUDO DESTACADO -->
+    <section class="mt-5" id="destacado">
+        <div class="container jumbotron p-3 p-md-5 text-white rounded bg-dark d-flex">
+            <div class="container">
+                <h1 class="fst-italic p-3">IOT continua crescendo</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cum nostrum atque 
+                    maxime libero alias repudiandae corporis perspiciatis fuga soluta pariatur necessitatibus 
+                    debitis, nisi laborum eos ipsum. Expedita, atque repellendus.</p>
+                <a class="text-reset fw-bolder p-2" href="#">Continue lendo...</a>
+            </div>
+            <div class="container">
+                <img class="img-fluid" src="IMG/iot.png" id="noticiaDestacada">
+            </div>
+        </div>
+    </section>
+
+    <!-- CARDS -->
+    <section>
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-between">
+                <div class="card col-md-6">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Tecnologia</h5>
+                                <h1 class="card-title">
+                                    Aprenda programação
+                                </h1>
+                                <p class="card-text"><small class="text-muted">5 de Jan</small></p>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, 
+                                    consequuntur?
+                                </p>
+                                <a href="#" class="card-text text-reset fw-bolder">Continue lendo...</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-center">
+                            <img src="IMG/Imagem1.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-md-6">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-success">Ciência</h5>
+                                <h1 class="card-title">
+                                    Acelerador de partículas
+                                </h1>
+                                <p class="card-text"><small class="text-muted">3 de Jan</small></p>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, 
+                                    consequuntur?
+                                </p>
+                                <a href="#" class="card-text text-reset fw-bolder">Continue lendo...</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-center">
+                            <img src="IMG/ace.jpg" class="img-fluid rounded" id="card2Img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div id="post">
+                        <h2 class="mt-5">Um post surreal sobre tecnologia</h2>
+                        <p><small class="text-muted">Escrito por <a href="#"> João</a>, em 3 de Janeiro. 
+                            <a href="#" class="text-warning">Tecnologia</a></small></p>
+                        <p class="border-bottom">Introdução do artigo com o resumo do que está escrito</p>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor libero impedit 
+                            tempora. Voluptatem natus reprehenderit reiciendis dicta animi culpa, at libero 
+                            vero ullam voluptate sunt quisquam mollitia nobis officia maiores. Consequuntur, 
+                            voluptas. Ratione ex nam quo excepturi? Ratione unde, mollitia alias iste culpa 
+                            inventore reprehenderit repellendus nisi optio architecto vel.
+                        </p>
+                    </div>
+                    <div id="post">
+                        <h2 class="mt-5">Outro post surreal sobre tecnologia</h2>
+                        <p><small class="text-muted">Escrito por <a href="#"> João</a>, em 3 de Janeiro. <a href="#" class="text-success">Ciência</a></small></p>
+                        <p class="border-bottom">Introdução do artigo com o resumo do que está escrito</p>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor libero impedit 
+                            tempora. Voluptatem natus reprehenderit reiciendis dicta animi culpa, at libero 
+                            vero ullam voluptate sunt quisquam mollitia nobis officia maiores. Consequuntur, 
+                            voluptas. Ratione ex nam quo excepturi? Ratione unde, mollitia alias iste culpa 
+                            inventore reprehenderit repellendus nisi optio architecto vel.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="mt-5 bg-light rounded p-3" id="sobre">
+                        <h2>Sobre</h2>
+                        <p>
+                            O maior portal de notícias do Brasil, criado na época da prensa manual se mantem 
+                            vivo até hoje
+                        </p>
+                    </div>
+                    <div class="mt-2" id="arquivos">
+                        <h2>Arquivos</h2>
+                        <ul>
+                            <li><a href="#" >Janeiro 2022</a></li>
+                            <li><a href="#" >Dezembro 2021</a></li>
+                            <li><a href="#" >Novembro 2021</a></li>
+                            <li><a href="#" >Outubro 2021</a></li>
+                            <li><a href="#" >Setembro 2021</a></li>
+                            <li><a href="#" >Agosto 2021</a></li>
+                        </ul>
+                    </div>
+                    <div class="mt-2" id="midiasSociais">
+                        <h2>Siga nossas mídias sociais</h2>
+                        <ul>
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
